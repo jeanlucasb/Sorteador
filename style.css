@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    display: block;
+    margin: 156px auto;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.luck1 {
+
+    width: 342px;
+    height: 74px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    display: inline;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    cursor: pointer;
+    border: none;
+    margin-right: 50px;
+    
+}
+
+.luck2 {
+    width: 342px;
+    height: 74px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    cursor: pointer;
+    border: none;
+
+}
+
+button {
+    width: 342px;
+    height: 72px;
+    background: #FF0000;
+    box-shadow: 0px 18px 40px rgba(210, 39, 10);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 79px auto;
+    cursor: pointer;
+    border: none;
+
+}
+button:hover{
+opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.8;
+}
